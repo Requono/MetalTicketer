@@ -1,0 +1,22 @@
+<div>Jelenleg elérhető jegyek:</div>
+<br />
+<div>
+  <select #chosenImage (change)="reload()">
+    <option value="aild">As I Lay Dying</option>
+    <option value="alestorm">Alestorm</option>
+    <option value="amon">Amon Amarthg</option>
+    <option value="crystal">Crystal Lake</option>
+    <option value="darko">Darko US</option>
+    <option value="ffaa">Fit for an Autopsy</option>
+    <option value="lorna">Lorna Shore</option>
+    <option value="taim">Thy Art Is Murder</option>
+    <option value="ttg">To The Grave</option>
+  </select>
+
+  <div class="container">
+    <img class="ticketImage" [src]="'assets/' + chosenImage.value + '.png'" />
+  </div>
+</div>
+<div>
+  <a mat-raised-button color="primary" [routerLink]="'/success'">Vétel</a>
+</div>

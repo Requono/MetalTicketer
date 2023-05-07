@@ -1,0 +1,49 @@
+<div class="main_component">
+  <div class="div-flex">
+    <div>
+      Sziahelo, az utolsó pillanatban valami elcsesződött a regisztrációnál és
+      már energiám se volt este 10kor megoldani, szóval ez a felhasználó-pw
+      kombó működik bejelentkezésnél:<br />
+      teszt@elek.com <br />Krumpli123
+    </div>
+    <h1>Regisztráció!</h1>
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <mat-label for="email">Email: </mat-label>
+        <input matInput type="text" formControlName="email" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label for="password">Jelszó: </mat-label>
+        <input matInput type="password" formControlName="password" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label for="rePassword">Jelszó mégegyszer: </mat-label>
+        <input matInput type="password" formControlName="rePassword" />
+      </mat-form-field>
+      <div formGroupName="name" class="subForm">
+        <mat-form-field>
+          <mat-label for="firstname">Keresztnév: </mat-label>
+          <input matInput type="text" formControlName="firstname" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label for="firstname">Vezetéknév: </mat-label>
+          <input matInput type="text" formControlName="lastname" />
+        </mat-form-field>
+      </div>
+      <div>
+        <span class="buttons">
+          <a routerLink="/login">
+            <button mat-raised-button color="primary" type="submit">
+              Regisztráció
+            </button></a
+          >
+        </span>
+        <span class="buttons">
+          <button mat-raised-button color="primary" (click)="goBack()">
+            Vissza
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
+</div>

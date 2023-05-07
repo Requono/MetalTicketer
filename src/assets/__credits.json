@@ -1,0 +1,47 @@
+[
+  {
+    "id": "aild",
+    "name": "As I Lay Dying",
+    "price": "7500 HUF"
+  },
+  {
+    "id": "alestorm",
+    "name": "Alestorm",
+    "price": "7000 HUF"
+  },
+  {
+    "id": "amon",
+    "name": "Amon Amarth",
+    "price": "6000 HUF"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal Lake",
+    "price": "10000 HUF"
+  },
+  {
+    "id": "darko",
+    "name": "Darko US",
+    "price": "12000 HUF"
+  },
+  {
+    "id": "ffaa",
+    "name": "Fit for an Autopsy",
+    "price": "12500 HUF"
+  },
+  {
+    "id": "lorna",
+    "name": "Lorna Shore",
+    "price": "7000 HUF"
+  },
+  {
+    "id": "taim",
+    "name": "Thy Art Is Murder",
+    "price": "9000 HUF"
+  },
+  {
+    "id": "ttg",
+    "name": "To The Grave",
+    "price": "8000 HUF"
+  }
+]

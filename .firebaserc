@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "metal-ticketer": {
+      "hosting": {
+        "metal-ticketer": [
+          "metal-ticketer"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "metal-ticketer"
+  }
+}
